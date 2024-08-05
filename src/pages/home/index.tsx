@@ -20,6 +20,10 @@ export function Home() {
           <Social url="https://github.com/JoaoGabrieloliv">
             <FaGithub size={35} color="#FFF" />
           </Social>
+
+          <Social url="https://www.linkedin.com/in/jo%C3%A3o-gabriel-81b2b9267/">
+            <FaLinkedin size={35} color="#FFF" />
+          </Social>
         </footer>
       </main>
     </div>
