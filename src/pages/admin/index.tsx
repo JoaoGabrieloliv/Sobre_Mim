@@ -38,7 +38,7 @@ export function Admin() {
 
       snapshot.forEach((doc) => {
         lista.push({
-          id: doc.data().name,
+          id: doc.id,
           name: doc.data().name,
           url: doc.data().url,
           bg: doc.data().bg,
